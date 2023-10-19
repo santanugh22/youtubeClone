@@ -9,7 +9,7 @@ justify-content: flex-end;
 background-color: ${({theme})=>theme.bgLighter};
 position: sticky;
 top: 0;
-position: relative;
+
 
 
 
@@ -35,7 +35,7 @@ width: 40%;
 left:0px;
 right:0px;
 margin: auto;
-background-color: white;
+background-color:${({theme})=>theme.soft};
 height: 40px;
 justify-content: space-between;
 align-items: center;
@@ -50,6 +50,8 @@ background-color: transparent;
 outline: none;
 border: none;
 font-size: 30;
+width: 100%;
+font-weight: 500;
 
 
 
